@@ -22,3 +22,13 @@ A collection of instruction data and scripts for machine translation, using Chin
     <img width="45%" alt="image" src="https://github.com/wxjiao/InstructMT/assets/31032829/bd53e282-67d4-4347-ae98-780f14f450ef">
 </p>
 
+Script: `convert_pair_to_hf.py` which transforms sentence pairs to the above instructions. `-tp` can be "instruct_fol", "instruct_sep" and "instruct_abo".
+```
+python3 convert_pair_to_hf.py \
+    -s zh -t en \
+    -dir ./ \
+    -sf test_rand_50.zh.txt \
+    -tf test_rand_50.en.txt \
+    -of zhen_hf.fol.json \
+    -tp instruct_fol
+```
