@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="25%" alt="ParroT" src="https://github.com/wxjiao/ParroT/assets/31032829/9893aba1-7ea3-4c76-a995-9b12aff44950">
+    <img width="25%" alt="ParroT" src="https://github.com/wxjiao/InstructMT/assets/31032829/3a19944b-d42d-45da-919b-320f1410a3a6">
     <h2>
     InstructMT Data & Scripts <a href="https://github.com/wxjiao/ParroT">@ParroT</a>
     </h2>
