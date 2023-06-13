@@ -7,6 +7,19 @@
 
 A collection of instruction data and scripts for machine translation, using Chinese (zh) and English (en) as the examples.
 
+## Data Resources
+
+<div align="center">
+  
+| Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Preproc |
+| :------ | :------: | :------: | :------: | :------: | :------: |  :------: |
+| Translation |  Newstest17-22  |     |  |  |  | |
+| MQM |  WMT20  |    |  |  |  | |
+| Comet-Scored |  WMT20  |     |  |  |  | |
+| Translation |  WMT20  |     |  |  |  | |
+
+</div>
+
 
 ## Translation Scenarios
 
