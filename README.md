@@ -1,4 +1,10 @@
-# InstructMT
+<div align="center">
+    <img width="25%" alt="ParroT" src="https://github.com/wxjiao/ParroT/assets/31032829/9893aba1-7ea3-4c76-a995-9b12aff44950">
+    <h2>
+    InstructMT Data & Scripts <a href="https://github.com/wxjiao/ParroT">@ParroT</a>
+    </h2>
+</div>
+
 A collection of instruction data and scripts for machine translation, using Chinese (zh) and English (en) as the examples.
 
 
