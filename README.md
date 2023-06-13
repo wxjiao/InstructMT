@@ -16,7 +16,7 @@ A collection of instruction data and scripts for machine translation, using Chin
 | Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Preproc |
 | :------ | :------: | :------: | :------: | :------: | :------: |  :------: |
 | Translation |  [Newstest17-22](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |     |  |  |  | |
-| MQM |  WMT20  |    |  |  |  | |
+| MQM |  WMT20  |  12.2k |  | 13.3k |  | |
 | Comet-Scored |  WMT20  |     |  |  |  | |
 | Translation |  WMT20  |     |  |  |  | |
 
