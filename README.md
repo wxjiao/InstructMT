@@ -19,7 +19,7 @@ A collection of instruction data and scripts for machine translation.
 | MQM-Score |  newstest20  | 20.0k  | -/- | -/- | 14.1k | `JSON`: 1 source + 10 system outputs w/ score |
 | MQM-Error |  newstest20  | 124.3k | -/- | -/ | 79.0k | `TXT`: 1 source + 1 system output w/ annotation |
 | COMET-Score |  newstest20  |     |  |  |  | |
-| Translation |  WMT20  |  475k | 475k | -/- | -/- | `TXT`: Filtered from 26M raw data by word alignment, language detection |
+| Translation |  WMT20  |  475k | 475k | -/- | -/- | `TXT`: Filtered from 26M raw data |
 
 </div>
 
