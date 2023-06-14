@@ -169,17 +169,28 @@ Output:
 
 **3. Error-Guided Instruction**
 
-Command (COMET En-Zh):
+Command (MQM En-Zh):
 ```
 cd ./parrot/error-guided-instruction
 
-python3 convert_cometscore_to_egi_alpaca.py \
-    -s en -t zh \
+python3 convert_mqmerror_to_egi_alpaca.py \
+    -s zh -t en \
     -if instruct_e2t.txt \
-    -i sys_rating_comet.en-zh.json \
-    -o data_egi_alp.en-zh.json
+    -i mqm_newstest2020_zhen.txt \
+    -o data_egi_alp.zh-en.json
 ```
 
+Output:
+```
+[
+    {
+        "instruction": "Could you supply the English translation for the upcoming sentences?",
+        "input": "国有企业和优势民营企业走进赣南革命老区。\n\n### Hint: A rendition having minor fluency/grammar errors is possible",
+        "output": "State-owned enterprises and dominant private enterprises entered the old revolutionary area of southern Jiangxi <v>State-owned enterprises and dominant private enterprises entered the old revolutionary area of southern Jiangxi.</v> "
+    },
+    ...
+]
+```
 
 Command (COMET En-Zh):
 ```
