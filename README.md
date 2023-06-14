@@ -75,7 +75,6 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 
 ### ParroT Instructions
 
-Folder details:
 ```
 parrot
 ├── alpaca
@@ -92,6 +91,9 @@ parrot
     ├── convert_pair_to_alpaca.py
     └── instruct_follow.txt
 ```
+
+**1.【 Translation Instruction 】**
+
 
 
 **Script**: `convert_pair_to_hf.py` 
