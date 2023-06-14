@@ -14,7 +14,7 @@ A collection of instruction data and scripts for machine translation.
 <div align="center">
   
 | Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Format |
-| :------ | :------: | :------: | :------: | :------: | :------: |  :------: |
+| :------ | :------: | :------: | :------: | :------: | :------: |  :------ |
 | Translation |  [Newstest17-22](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k |  |
 | MQM-Score |  WMT20  | 2000  | -/- | -/- | 1418 | `JSON`: 1 source + 10 system outputs w/ score |
 | MQM-Error |  WMT20  | 124.3k | -/- | -/ | 79.0k | `TXT`: 1 source + 1 system output w/ annotation |
