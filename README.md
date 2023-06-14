@@ -14,19 +14,6 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 ### Data Resources
 
 <div align="center">
-  
-| Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Format |
-| :------ | :------: | ------: | ------: | ------: | ------: |  :------ |
-| Translation |  [newstest17-20](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k | `TXT` |
-| MQM-Score |  [newstest20](https://drive.google.com/drive/folders/1OFmqJVtu_dhVYq-KNb478pmqdfqPNQSA?usp=drive_link)  | 20.0k  | -/- | -/- | 14.1k | `JSON`: 1 source + 10 system outputs w/ score |
-| MQM-Error |  [newstest20](https://drive.google.com/drive/folders/18O5hZc9GVX6V5wq9PKb3hzSef0pgzkbO?usp=drive_link)  | 124.3k | -/- | -/- | 79.0k | `TXT`: 1 source + 1 system output w/ annotation |
-| COMET-Score |  [newstest20](https://drive.google.com/drive/folders/1wDiHYuu-vZiBnfGmzEigRpnmx2qFiFwF?usp=drive_link)  | -/- | 19.8k | 9.4k | -/- | `JSON`: 1 source + 14/12 system outputs w/ score |
-| Translation |  [WMT20](https://drive.google.com/drive/folders/1g7x0jrKlUfkEduy_gS7k7JFn7zPB7o_u?usp=drive_link)  |  475.0k | 475.0k | -/- | -/- | `TXT`: Filtered from 26M raw data |
-
-</div>
-
-
-<div align="center">
 <table style="text-align:right">
   <tr>
     <th>Data </th>
