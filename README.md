@@ -73,6 +73,8 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 </div>
 
 
+---
+
 ### ParroT Instructions
 
 ```
@@ -94,7 +96,7 @@ parrot
 
 **1. Translation Instruction**
 
-Command:
+Example usage and output:
 ```
 cd ./parrot/translation-instruction
 
@@ -106,7 +108,6 @@ python3 convert_pair_to_alpaca.py \
     -of data_ti_alp.zh-en.json
 ```
 
-Output:
 ```
 [
     {
@@ -120,7 +121,7 @@ Output:
 
 **2. Contrastive Instruction**
 
-Command (MQM Zh-En):
+Example usage and output for __MQM Zh-En__:
 ```
 cd ./parrot/contrastive-instruction
 
@@ -131,7 +132,6 @@ python3 convert_mqmscore_to_csi_alpaca.py \
     -o data_csi_alp.zh-en.json
 ```
 
-Output:
 ```
 [
     {
@@ -143,7 +143,7 @@ Output:
 ]
 ```
 
-Command (COMET En-Zh):
+Example usage and output for __COMET En-Zh__:
 ```
 cd ./parrot/contrastive-instruction
 
@@ -154,7 +154,6 @@ python3 convert_cometscore_to_csi_alpaca.py \
     -o data_csi_alp.en-zh.json
 ```
 
-Output:
 ```
 [
     {
@@ -169,7 +168,7 @@ Output:
 
 **3. Error-Guided Instruction**
 
-Command (MQM En-Zh):
+Example usage and output for __MQM En-Zh__:
 ```
 cd ./parrot/error-guided-instruction
 
@@ -180,7 +179,6 @@ python3 convert_mqmerror_to_egi_alpaca.py \
     -o data_egi_alp.zh-en.json
 ```
 
-Output:
 ```
 [
     {
@@ -192,7 +190,7 @@ Output:
 ]
 ```
 
-Command (COMET En-Zh):
+Example usage and output for __COMET En-Zh__:
 ```
 cd ./parrot/error-guided-instruction
 
@@ -203,7 +201,6 @@ python3 convert_cometscore_to_egi_alpaca.py \
     -o data_egi_alp.en-zh.json
 ```
 
-Output:
 ```
 [
     {
@@ -214,6 +211,8 @@ Output:
     ...
 ]
 ```
+
+**\* Alpaca Format**
 
 
 ### Instruction Variants and Upgrades
