@@ -37,8 +37,8 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td>MQM-Score </td>
     <td> <a href="https://drive.google.com/drive/folders/1OFmqJVtu_dhVYq-KNb478pmqdfqPNQSA?usp=drive_link" >newstest20 </a> </td>
     <td> 20.0k </td>
-    <td> -/- </td>
-    <td> -/- </td>
+    <td> n/a </td>
+    <td> n/a </td>
     <td> 14.1k </td>
     <td> `JSON` </td>
   </tr>
@@ -46,18 +46,18 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td>MQM-Error </td>
     <td> <a href="https://drive.google.com/drive/folders/18O5hZc9GVX6V5wq9PKb3hzSef0pgzkbO?usp=drive_link" >newstest20 </a> </td>
     <td> 124.3k </td>
-    <td> -/- </td>
-    <td> -/- </td>
+    <td> n/a </td>
+    <td> n/a </td>
     <td> 79.0k </td>
     <td> `TXT` </td>
   </tr>
   <tr>
     <td>COMET-Score </td>
     <td> <a href="https://drive.google.com/drive/folders/1wDiHYuu-vZiBnfGmzEigRpnmx2qFiFwF?usp=drive_link" >newstest20 </a> </td>
-    <td> -/- </td>
+    <td> n/a </td>
     <td> 19.8k </td>
     <td> 9.4k </td>
-    <td> -/- </td>
+    <td> n/a </td>
     <td> `JSON` </td>
   </tr>
   <tr>
@@ -65,8 +65,8 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td> <a href="https://drive.google.com/drive/folders/1g7x0jrKlUfkEduy_gS7k7JFn7zPB7o_u?usp=drive_link" >wmt20 </a> </td>
     <td> 475.0k </td>
     <td> 475.0k </td>
-    <td> -/- </td>
-    <td> -/- </td>
+    <td> n/a </td>
+    <td> n/a </td>
     <td> `TXT`: Filtered from 26M </td>
   </tr>
 </table>
