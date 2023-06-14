@@ -16,7 +16,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 <div align="center">
 <table style="text-align:right">
   <tr>
-    <th> Data </th>
+    <th style="width:100px"> Data </th>
     <th> Source </th>
     <th> Zh-En </th>
     <th> En-Zh </th>
