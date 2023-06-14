@@ -26,6 +26,73 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 </div>
 
 
+<div align="center">
+<table style="text-align:right">
+  <tr>
+    <th>WMT20 En-De </th>
+    <th>Batch (tok*freq*gpu)</th>
+    <th>Step</th>
+    <th>Lr-sch</th>
+    <th>Dp</th>
+    <th>V_loss<sup>*</sup></th>
+    <th>V_bleu<sup>*</sup></th>
+    <th>T-bleu(sac/mul)</th>
+    <th>GPU*Hour</th>
+  </tr>
+  <tr>
+    <td>Transformer-big</td>
+    <td>460K (3600*16*8)</td>
+    <td>30K</td>
+    <td>Cosine</td>
+    <td>0.1</td>
+    <td>3.119</td>
+    <td>43.73</td>
+    <td>32.4/35.2</td>
+    <td>8V100*16.0</td>
+  </tr>
+  <tr>
+    <td rowspan=4>mBART_cc06</td>
+    <td rowspan=2>131K (2048*8*8)</td>
+    <td>100K</td>
+    <td>Polynomial</td>
+    <td>0.3</td>
+    <td>4.875</td>
+    <td>45.11</td>
+    <td>32.8/35.6</td>
+    <td>8A100*26.0</td>
+  </tr>
+  <tr>
+    <td>100K</td>
+    <td>Polynomial</td>
+    <td>0.1</td>
+    <td>4.809</td>
+    <td>44.98</td>
+    <td>33.0/35.7</td>
+    <td>8A100*26.0</td>
+  </tr>
+  <tr>
+    <td rowspan=2>32K (2048*2*8)</td>
+    <td>300K</td>
+    <td>Polynomial</td>
+    <td>0.3</td>
+    <td>4.836</td>
+    <td>45.38</td>
+    <td>33.3/36.1</td>
+    <td>8A100*25.4</td>
+  </tr>
+  <tr>
+    <td>300K</td>
+    <td>Polynomial</td>
+    <td>0.1</td>
+    <td>4.782</td>
+    <td>45.42</td>
+    <td><b>33.4/36.1</b></td>
+    <td>8A100*25.4</td>
+  </tr>
+</table>
+</div>
+
+
 ### Instructions
 
 **Script**: `convert_pair_to_hf.py` 
