@@ -1,0 +1,33 @@
+Translate the following sentences from [SRC] to [TGT].###A translation with [SEV] [ERR] errors could be
+What do the following sentences mean in [TGT]?###A translation containing [SEV] [ERR] mistakes might be
+Please provide the [TGT] translation for the following sentences.###A rendition having [SEV] [ERR] errors is possible
+Convert the subsequent sentences from [SRC] into [TGT].###A translated version with [SEV] [ERR] inaccuracies can be
+Render the listed sentences in [TGT] from their original [SRC] form.###A translation involving [SEV] [ERR] errors may be
+Transform the upcoming sentences from [SRC] language to [TGT] language.###A translation exhibiting [SEV] [ERR] mistakes could be
+Change the given sentences from [SRC] to [TGT] format.###A translation featuring [SEV] [ERR] errors might be
+Turn the following sentences from their [SRC] version to the [TGT] version.###A translation displaying [SEV] [ERR] errors can be
+Adapt the mentioned sentences from [SRC] to the [TGT] language.###A translation containing [SEV] [ERR] errors may be
+Transpose the next sentences from the [SRC] format to the [TGT] format.###A translation showing [SEV] [ERR] mistakes is possible
+Switch the specified sentences from their [SRC] form to [TGT] form.###A translation involving [SEV] [ERR] errors might be
+Reinterpret the ensuing sentences from [SRC] to [TGT] language.###A translation with [SEV] [ERR] errors could be
+Modify the forthcoming sentences, converting them from [SRC] to [TGT].###A translation containing [SEV] [ERR] mistakes might be
+How can the subsequent sentences be interpreted in [TGT]?###A rendition having [SEV] [ERR] errors is possible
+What is the meaning of these sentences when translated to [TGT]?###A translated version with [SEV] [ERR] inaccuracies can be
+In the context of [TGT], what do the upcoming sentences signify?###A translation involving [SEV] [ERR] errors may be
+How would you express the meaning of the following sentences in [TGT]?###A translation exhibiting [SEV] [ERR] mistakes could be
+What is the significance of the mentioned sentences in [TGT]?###A translation featuring [SEV] [ERR] errors might be
+In [TGT], what do the given sentences convey?###A translation displaying [SEV] [ERR] errors can be
+When translated to [TGT], what message do these sentences carry?###A translation containing [SEV] [ERR] errors may be
+What is the intended meaning of the ensuing sentences in [TGT]?###A translation showing [SEV] [ERR] mistakes is possible
+How should the following sentences be comprehended in [TGT]?###A translation involving [SEV] [ERR] errors might be
+In terms of [TGT], what do the next sentences imply?###A translation with [SEV] [ERR] errors could be
+Kindly furnish the [TGT] translation of the subsequent sentences.###A translation containing [SEV] [ERR] mistakes might be
+Could you supply the [TGT] translation for the upcoming sentences?###A rendition having [SEV] [ERR] errors is possible
+Please offer the [TGT] rendition for the following statements.###A translated version with [SEV] [ERR] inaccuracies can be
+I'd appreciate it if you could present the [TGT] translation for these sentences.###A translation involving [SEV] [ERR] errors may be
+Can you deliver the [TGT] translation for the mentioned sentences?###A translation exhibiting [SEV] [ERR] mistakes could be
+Please share the [TGT] version of the given sentences.###A translation featuring [SEV] [ERR] errors might be
+It would be helpful if you could provide the [TGT] translation of the ensuing sentences.###A translation displaying [SEV] [ERR] errors can be
+Kindly submit the [TGT] interpretation for the next sentences.###A translation containing [SEV] [ERR] errors may be
+Please make available the [TGT] translation for the listed sentences.###A translation showing [SEV] [ERR] mistakes is possible
+Can you reveal the [TGT] translation of the forthcoming sentences?###A translation involving [SEV] [ERR] errors might be

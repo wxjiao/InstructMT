@@ -1,0 +1,33 @@
+Translate the following sentences from [SRC] to [TGT].###We prefer to translate it to
+What do the following sentences mean in [TGT]?###We prefer the translation
+Please provide the [TGT] translation for the following sentences.###A better translation would be
+Convert the subsequent sentences from [SRC] into [TGT].###We favor translating it as
+Render the listed sentences in [TGT] from their original [SRC] form.###We opt to translate it to
+Transform the upcoming sentences from [SRC] language to [TGT] language.###We'd rather translate them as
+Change the given sentences from [SRC] to [TGT] format.###We have a preference for translating it to
+Turn the following sentences from their [SRC] version to the [TGT] version.###We'd like to translate it as
+Adapt the mentioned sentences from [SRC] to the [TGT] language.###We prefer translating it as
+Transpose the next sentences from the [SRC] format to the [TGT] format.###We want to translate it to
+Switch the specified sentences from their [SRC] form to [TGT] form.###We choose to translate it as
+Reinterpret the ensuing sentences from [SRC] to [TGT] language.###We prefer to translate it using
+Modify the forthcoming sentences, converting them from [SRC] to [TGT].###We'd prefer to translate it as
+How can the subsequent sentences be interpreted in [TGT]?###We favor the translation
+What is the meaning of these sentences when translated to [TGT]?###We opt for the translation
+In the context of [TGT], what do the upcoming sentences signify?###We'd rather have the translation
+How would you express the meaning of the following sentences in [TGT]?###We have a preference for the translation
+What is the significance of the mentioned sentences in [TGT]?###We'd like the translation
+In [TGT], what do the given sentences convey?###We prefer the translation
+When translated to [TGT], what message do these sentences carry?###We want the translation
+What is the intended meaning of the ensuing sentences in [TGT]?###We choose the translation
+How should the following sentences be comprehended in [TGT]?###We prefer using the translation
+In terms of [TGT], what do the next sentences imply?###We'd prefer the translation
+Kindly furnish the [TGT] translation of the subsequent sentences.###A more suitable translation is
+Could you supply the [TGT] translation for the upcoming sentences?###A superior translation would be
+Please offer the [TGT] rendition for the following statements.###A more fitting translation would be
+I'd appreciate it if you could present the [TGT] translation for these sentences.###A more appropriate translation is
+Can you deliver the [TGT] translation for the mentioned sentences?###A preferable translation would be
+Please share the [TGT] version of the given sentences.###A better option for translation is
+It would be helpful if you could provide the [TGT] translation of the ensuing sentences.###A more optimal translation would be
+Kindly submit the [TGT] interpretation for the next sentences.###A more desirable translation is
+Please make available the [TGT] translation for the listed sentences.###A more effective translation would be
+Can you reveal the [TGT] translation of the forthcoming sentences?###A more accurate translation is
