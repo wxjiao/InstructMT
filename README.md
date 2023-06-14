@@ -92,7 +92,8 @@ parrot
     └── instruct_follow.txt
 ```
 
-**1.【 Translation Instruction 】**
+**1. Translation Instruction**
+
 
 
 
