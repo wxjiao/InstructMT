@@ -246,7 +246,7 @@ python3 ../alpaca/convert_alpaca_to_hf.py \
 ```
 
 
-### Instruction Variants and Upgrades
+### Instruction Variants (To Be Optimized)
 
 <details>
     
@@ -271,6 +271,8 @@ python3 ../alpaca/convert_alpaca_to_hf.py \
 </p>
 
 </details>
+
+
 
 
 ## Public Impact
