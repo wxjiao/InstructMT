@@ -13,6 +13,8 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 
 ### Data Resources
 
+Below lists the resources of high-quality translation data for instruction tuning. You can access the data through the links.
+
 <div align="center">
 <table style="text-align:right">
   <tr>
@@ -214,10 +216,30 @@ python3 convert_cometscore_to_egi_alpaca.py \
 
 **\* Alpaca Format**
 
+The above three instruction types can be used for [Stanford-Alpaca](https://github.com/tatsu-lab/stanford_alpaca) directly. 
+
+Or you can transform them to fit the format of [ParroT](https://github.com/wxjiao/ParroT) as follows:
+```
+cd ./parrot/translation-instruction
+
+python3 ../alpaca/convert_alpaca_to_hf.py \
+    -i data_ti_alp.zh-en.json \
+    -o data_ti_hf.zh-en.json
+``` 
+
+```
+# Each dict is saved as one line but we show it in multiple lines for better appearance
+{
+    "text": "28-Year-Old Chef Found Dead at San Francisco Mall</s>",
+    "prefix": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nI'd appreciate it if you could present the English translation for these sentences.\n\n### Input:\n28岁厨师被发现死于旧金山一家商场\n\n### Response:"
+}
+```
+
 
 ### Instruction Variants and Upgrades
 
 <details>
+    
 **1. Translation Instruction**
 
 **【 Instruction + Source > Target 】**: Input the instruction and source sentence at the same time.
