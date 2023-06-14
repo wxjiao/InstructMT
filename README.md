@@ -77,43 +77,20 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 
 Folder details:
 ```
-.
+parrot
 ├── alpaca
-│   ├── alpaca_data.json
-│   ├── alpaca_data_hf.json
 │   └── convert_alpaca_to_hf.py
-├── comet-score
-│   ├── create_comet_e2t_alpaca.v2.py
-│   ├── create_comet_t2t_alpaca.v2.py
-│   ├── instruct_e2t.txt
-│   ├── instruct_t2t.txt
-│   ├── sys_rating_comet.de-en.json
-│   └── sys_rating_comet.en-zh.json
-├── mqm-error
-│   ├── convert_mqmerror_to_egi_alpaca.py
-│   ├── instruct_e2t.txt
-│   ├── mqm_newstest2020_ende.txt
-│   ├── mqm_newstest2020_zhen.txt
-│   └── test.json
-├── mqm-score
+├── contrastive-instruction
+│   ├── convert_cometscore_to_csi_alpaca.py
 │   ├── convert_mqmscore_to_csi_alpaca.py
-│   ├── instruct_t2t.txt
-│   ├── sys_rating_mqm.en-de.json
-│   ├── sys_rating_mqm.zh-en.json
-│   ├── sys_rating_mqm_fd.en-de.json
-│   ├── sys_rating_mqm_fd.zh-en.json
-│   └── test.json
-├── newstest17-20
-│   ├── convert_pair_to_alpaca.py
-│   ├── instruct_follow.txt
-│   ├── newstest17-20.en-de.de
-│   ├── newstest17-20.en-de.en
-│   ├── newstest17-20.en-zh.en
-│   ├── newstest17-20.en-zh.zh
-│   └── text.json
-└── wmt20
-    ├── wmt20_filtered.en
-    └── wmt20_filtered.zh
+│   └── instruct_t2t.txt
+├── error-guided-instruction
+│   ├── convert_cometscore_to_egi_alpaca.py
+│   ├── convert_mqmerror_to_egi_alpaca.py
+│   └── instruct_e2t.txt
+└── translation-instruction
+    ├── convert_pair_to_alpaca.py
+    └── instruct_follow.txt
 ```
 
 
