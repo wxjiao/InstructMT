@@ -29,65 +29,58 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 <div align="center">
 <table style="text-align:right">
   <tr>
-    <th>WMT20 En-De </th>
-    <th>Batch (tok*freq*gpu)</th>
-    <th>Step</th>
-    <th>Lr-sch</th>
-    <th>Dp</th>
-    <th>V_loss<sup>*</sup></th>
-    <th>V_bleu<sup>*</sup></th>
-    <th>T-bleu(sac/mul)</th>
-    <th>GPU*Hour</th>
+    <th>Data </th>
+    <th>Source </th>
+    <th>Zh-En </th>
+    <th>En-Zh </th>
+    <th>De-En </th>
+    <th>En-De</th>
+    <th>Format</th>
   </tr>
   <tr>
-    <td>Transformer-big</td>
-    <td>460K (3600*16*8)</td>
-    <td>30K</td>
-    <td>Cosine</td>
-    <td>0.1</td>
-    <td>3.119</td>
-    <td>43.73</td>
-    <td>32.4/35.2</td>
-    <td>8V100*16.0</td>
+    <td>Translation </td>
+    <td> <a href="https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link" >newstest17-20 </a> </td>
+    <td> 12.2k </td>
+    <td> 12.2k </td>
+    <td> 13.3k </td>
+    <td> 13.3k </td>
+    <td> `TXT` </td>
   </tr>
   <tr>
-    <td rowspan=4>mBART_cc06</td>
-    <td rowspan=2>131K (2048*8*8)</td>
-    <td>100K</td>
-    <td>Polynomial</td>
-    <td>0.3</td>
-    <td>4.875</td>
-    <td>45.11</td>
-    <td>32.8/35.6</td>
-    <td>8A100*26.0</td>
+    <td>MQM-Score </td>
+    <td> <a href="https://drive.google.com/drive/folders/1OFmqJVtu_dhVYq-KNb478pmqdfqPNQSA?usp=drive_link" >newstest20 </a> </td>
+    <td> 20.0k </td>
+    <td> -/- </td>
+    <td> -/- </td>
+    <td> 14.1k </td>
+    <td> `JSON`: 1 source + 10 system outputs w/ score </td>
   </tr>
   <tr>
-    <td>100K</td>
-    <td>Polynomial</td>
-    <td>0.1</td>
-    <td>4.809</td>
-    <td>44.98</td>
-    <td>33.0/35.7</td>
-    <td>8A100*26.0</td>
+    <td>MQM-Error </td>
+    <td> <a href="https://drive.google.com/drive/folders/18O5hZc9GVX6V5wq9PKb3hzSef0pgzkbO?usp=drive_link" >newstest20 </a> </td>
+    <td> 124.3k </td>
+    <td> -/- </td>
+    <td> -/- </td>
+    <td> 79.0k </td>
+    <td> `TXT`: 1 source + 1 system output w/ annotation </td>
   </tr>
   <tr>
-    <td rowspan=2>32K (2048*2*8)</td>
-    <td>300K</td>
-    <td>Polynomial</td>
-    <td>0.3</td>
-    <td>4.836</td>
-    <td>45.38</td>
-    <td>33.3/36.1</td>
-    <td>8A100*25.4</td>
+    <td>COMET-Score </td>
+    <td> <a href="https://drive.google.com/drive/folders/1wDiHYuu-vZiBnfGmzEigRpnmx2qFiFwF?usp=drive_link" >newstest20 </a> </td>
+    <td> -/- </td>
+    <td> 19.8k </td>
+    <td> 9.4k </td>
+    <td> -/- </td>
+    <td> `JSON`: 1 source + 14/12 system outputs w/ score </td>
   </tr>
   <tr>
-    <td>300K</td>
-    <td>Polynomial</td>
-    <td>0.1</td>
-    <td>4.782</td>
-    <td>45.42</td>
-    <td><b>33.4/36.1</b></td>
-    <td>8A100*25.4</td>
+    <td>Translation </td>
+    <td> <a href="https://drive.google.com/drive/folders/1g7x0jrKlUfkEduy_gS7k7JFn7zPB7o_u?usp=drive_link" >wmt20 </a> </td>
+    <td> 475.0k </td>
+    <td> 475.0k </td>
+    <td> -/- </td>
+    <td> -/- </td>
+    <td> `TXT`: Filtered from 26M raw data </td>
   </tr>
 </table>
 </div>
