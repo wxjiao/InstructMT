@@ -103,7 +103,7 @@ python3 convert_pair_to_alpaca.py \
     -if instruct_follow.txt \
     -sf newstest17-20.en-zh.zh \
     -tf newstest17-20.en-zh.en \
-    -of data_ti_alp.json
+    -of data_ti_alp.zh-en.json
 ```
 
 Output:
@@ -118,9 +118,9 @@ Output:
 ]
 ```
 
-**1. Contrastive Instruction**
+**2. Contrastive Instruction**
 
-Command:
+Command (MQM Zh-En):
 ```
 cd ./parrot/contrastive-instruction
 
@@ -128,15 +128,48 @@ python3 convert_mqmscore_to_csi_alpaca.py \
     -s zh -t en \
     -if instruct_t2t.txt \
     -i sys_rating_mqm.zh-en.json \
-    -o data_csi_alp.json
+    -o data_csi_alp.zh-en.json
 ```
 
 Output:
 ```
+[
+    {
+        "instruction": "Could you supply the English translation for the upcoming sentences?",
+        "input": "国有企业和优势民营企业走进赣南革命老区。\n\n### Hint: A superior translation would be",
+        "output": "<p>State-owned enterprises and advantageous private enterprises entered the old revolutionary area of Gannan.</p> rather than <p>State-owned enterprises and dominant private enterprises entered the old revolutionary area of southern Jiangxi.</p>"
+    },
+    ...
+]
+```
+
+Command (COMET En-Zh):
+```
+cd ./parrot/contrastive-instruction
+
+python3 convert_cometscore_to_csi_alpaca.py \
+    -s en -t zh \
+    -if instruct_t2t.txt \
+    -i sys_rating_comet.en-zh.json \
+    -o data_csi_alp.en-zh.json
+```
+
+Output:
+```
+[
+    {
+        "instruction": "Could you supply the Chinese translation for the upcoming sentences?",
+        "input": "Michael Jackson wore tape on his nose to get front pages, former bodyguard claims\n\n### Hint: A superior translation would be",
+        "output": "<p>前保镖声称迈克尔·杰克逊为登上头条新闻在鼻子上贴上胶带</p> rather than <p>前保镖称迈克尔·杰克逊为上头版在鼻子上贴胶带</p>"
+    },
+    ...
+]
 ```
 
 
+
 ### Instruction Variants and Upgrades
+
 <details>
 **1. Translation Instruction**
 
