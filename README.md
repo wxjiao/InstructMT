@@ -14,9 +14,9 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 ### Data Resources
 
 <div align="center">
-<table style="text-align:right">
+<table style="text-align:right, width:100%">
   <tr>
-    <th style="width:100px"> Data </th>
+    <th style="width:200px"> Data </th>
     <th> Source </th>
     <th> Zh-En </th>
     <th> En-Zh </th>
