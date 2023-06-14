@@ -7,6 +7,8 @@
 
 A collection of instruction data and scripts for machine translation.
 
+The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/ParroT) and partially that of [Stanford-Alpaca](https://github.com/tatsu-lab/stanford_alpaca).
+
 ## Machine Translation
 
 ### Data Resources
