@@ -271,3 +271,18 @@ python3 ../alpaca/convert_alpaca_to_hf.py \
 </p>
 
 </details>
+
+
+## Public Impact
+
+### Citation
+Please kindly cite our paper if you find the data resources here helpful:
+
+```ruby
+@inproceedings{jiao2023parrot,
+  title={ParroT: Translating During Chat Using Large Language Models}, 
+  author={Wenxiang Jiao and Jen-tse Huang and Wenxuan Wang and Xing Wang and Shuming Shi and Zhaopeng Tu},
+  booktitle = {ArXiv},
+  year      = {2023}
+}
+```
