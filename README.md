@@ -122,7 +122,7 @@ Output:
 
 
 ### Instruction Variants and Upgrades
-
+<details>
 **1. Translation Instruction**
 
 **【 Instruction + Source > Target 】**: Input the instruction and source sentence at the same time.
@@ -143,3 +143,4 @@ Output:
     <img width="45%" alt="image" src="https://github.com/wxjiao/InstructMT/assets/31032829/bd53e282-67d4-4347-ae98-780f14f450ef">
 </p>
 
+</details>
