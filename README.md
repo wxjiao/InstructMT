@@ -14,12 +14,12 @@ A collection of instruction data and scripts for machine translation.
 <div align="center">
   
 | Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Format |
-| :------ | :------: | :------: | :------: | :------: | :------: |  :------ |
-| Translation |  [newstest17-20](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k |  |
-| MQM-Score |  newstest20  | 2000  | -/- | -/- | 1418 | `JSON`: 1 source + 10 system outputs w/ score |
+| :------ | :------: | ------: | ------: | ------: | ------: |  :------ |
+| Translation |  [newstest17-20](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k | `TXT` |
+| MQM-Score |  newstest20  | 20.0k  | -/- | -/- | 14.1k | `JSON`: 1 source + 10 system outputs w/ score |
 | MQM-Error |  newstest20  | 124.3k | -/- | -/ | 79.0k | `TXT`: 1 source + 1 system output w/ annotation |
 | COMET-Score |  newstest20  |     |  |  |  | |
-| Translation |  WMT20  |  475k | 475k | -/- | -/- | Filtered by word alignment, language detection |
+| Translation |  WMT20  |  475k | 475k | -/- | -/- | `TXT`: Filtered from 26M raw data by word alignment, language detection |
 
 </div>
 
