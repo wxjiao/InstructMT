@@ -18,11 +18,11 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
   <tr>
     <th> Data </th>
     <th> Source </th>
-    <th> zh-en </th>
-    <th> en-zh </th>
-    <th> de-en </th>
-    <th> en-de </th>
-    <th> format </th>
+    <th> Zh-En </th>
+    <th> En-Zh </th>
+    <th> De-En </th>
+    <th> En-De </th>
+    <th> Format </th>
   </tr>
   <tr>
     <td>Translation </td>
