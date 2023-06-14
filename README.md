@@ -167,6 +167,43 @@ Output:
 ```
 
 
+**3. Error-Guided Instruction**
+
+Command (COMET En-Zh):
+```
+cd ./parrot/error-guided-instruction
+
+python3 convert_cometscore_to_egi_alpaca.py \
+    -s en -t zh \
+    -if instruct_e2t.txt \
+    -i sys_rating_comet.en-zh.json \
+    -o data_egi_alp.en-zh.json
+```
+
+
+Command (COMET En-Zh):
+```
+cd ./parrot/error-guided-instruction
+
+python3 convert_cometscore_to_egi_alpaca.py \
+    -s en -t zh \
+    -if instruct_e2t.txt \
+    -i sys_rating_comet.en-zh.json \
+    -o data_egi_alp.en-zh.json
+```
+
+Output:
+```
+[
+    {
+        "instruction": "Could you supply the Chinese translation for the upcoming sentences?",
+        "input": "Michael Jackson wore tape on his nose to get front pages, former bodyguard claims\n\n### Hint: A rendition having no errors is possible",
+        "output": "前保镖声称迈克尔·杰克逊为登上头条新闻在鼻子上贴上胶带"
+    },
+    ...
+]
+```
+
 
 ### Instruction Variants and Upgrades
 
