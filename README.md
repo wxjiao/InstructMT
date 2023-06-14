@@ -118,7 +118,22 @@ Output:
 ]
 ```
 
+**1. Contrastive Instruction**
 
+Command:
+```
+cd ./parrot/contrastive-instruction
+
+python3 convert_mqmscore_to_csi_alpaca.py \
+    -s zh -t en \
+    -if instruct_t2t.txt \
+    -i sys_rating_mqm.zh-en.json \
+    -o data_csi_alp.json
+```
+
+Output:
+```
+```
 
 
 ### Instruction Variants and Upgrades
