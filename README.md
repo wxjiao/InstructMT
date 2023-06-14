@@ -5,7 +5,7 @@
     </h2>
 </div>
 
-A collection of instruction data and scripts for machine translation, using Chinese (zh) and English (en) as the examples.
+A collection of instruction data and scripts for machine translation.
 
 ## Machine Translation
 
@@ -15,11 +15,11 @@ A collection of instruction data and scripts for machine translation, using Chin
   
 | Data |  Source  |  Zh-En | En-Zh | De-En | En-De | Preproc |
 | :------ | :------: | :------: | :------: | :------: | :------: |  :------: |
-| Translation |  [Newstest17-22](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k |  | |
+| Translation |  [Newstest17-22](https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link)  |  12.2k | 12.2k | 13.3k  | 13.3k |  |
 | MQM-Score |  WMT20  |   |  |  |  | |
 | MQM-Error |  WMT20  |   |  |  |  | |
 | COMET-Score |  WMT20  |     |  |  |  | |
-| Translation |  WMT20  |     |  |  |  | |
+| Translation |  WMT20  |  47.5k | 47.5k | -/- | -/- | Filtered by word alignment, language detection |
 
 </div>
 
