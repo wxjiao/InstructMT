@@ -94,7 +94,29 @@ parrot
 
 **1. Translation Instruction**
 
+Command:
+```
+cd ./parrot/translation-instruction
 
+python3 convert_pair_to_alpaca.py \
+    -s zh -t en \
+    -if instruct_follow.txt \
+    -sf newstest17-20.en-zh.zh \
+    -tf newstest17-20.en-zh.en \
+    -of data_ti_alp.json
+```
+
+Output:
+```
+[
+    {
+        "instruction": "I'd appreciate it if you could present the English translation for these sentences.",
+        "input": "28岁厨师被发现死于旧金山一家商场",
+        "output": "28-Year-Old Chef Found Dead at San Francisco Mall"
+    },
+    ...
+]
+```
 
 
 **Script**: `convert_pair_to_hf.py` 
