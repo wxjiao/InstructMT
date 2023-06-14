@@ -40,7 +40,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td> -/- </td>
     <td> -/- </td>
     <td> 14.1k </td>
-    <td> `JSON`: 1 source + 10 system outputs w/ score </td>
+    <td> `JSON` </td>
   </tr>
   <tr>
     <td>MQM-Error </td>
@@ -49,7 +49,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td> -/- </td>
     <td> -/- </td>
     <td> 79.0k </td>
-    <td> `TXT`: 1 source + 1 system output w/ annotation </td>
+    <td> `TXT` </td>
   </tr>
   <tr>
     <td>COMET-Score </td>
@@ -58,7 +58,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td> 19.8k </td>
     <td> 9.4k </td>
     <td> -/- </td>
-    <td> `JSON`: 1 source + 14/12 system outputs w/ score </td>
+    <td> `JSON` </td>
   </tr>
   <tr>
     <td>Translation </td>
@@ -67,7 +67,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
     <td> 475.0k </td>
     <td> -/- </td>
     <td> -/- </td>
-    <td> `TXT`: Filtered from 26M raw data </td>
+    <td> `TXT`: Filtered from 26M </td>
   </tr>
 </table>
 </div>
