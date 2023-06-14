@@ -102,6 +102,8 @@ Example usage and output:
 ```
 cd ./parrot/translation-instruction
 
+# Download the Translation data into the folder
+
 python3 convert_pair_to_alpaca.py \
     -s zh -t en \
     -if instruct_follow.txt \
@@ -127,6 +129,8 @@ Example usage and output for __MQM Zh-En__:
 ```
 cd ./parrot/contrastive-instruction
 
+# Download the MQM-Score data into the folder
+
 python3 convert_mqmscore_to_csi_alpaca.py \
     -s zh -t en \
     -if instruct_t2t.txt \
@@ -148,6 +152,8 @@ python3 convert_mqmscore_to_csi_alpaca.py \
 Example usage and output for __COMET En-Zh__:
 ```
 cd ./parrot/contrastive-instruction
+
+# Download the COMET-Score data into the folder
 
 python3 convert_cometscore_to_csi_alpaca.py \
     -s en -t zh \
@@ -174,6 +180,8 @@ Example usage and output for __MQM En-Zh__:
 ```
 cd ./parrot/error-guided-instruction
 
+# Download the MQM-Error data into the folder
+
 python3 convert_mqmerror_to_egi_alpaca.py \
     -s zh -t en \
     -if instruct_e2t.txt \
@@ -195,6 +203,8 @@ python3 convert_mqmerror_to_egi_alpaca.py \
 Example usage and output for __COMET En-Zh__:
 ```
 cd ./parrot/error-guided-instruction
+
+# Download the COMET-Score data into the folder
 
 python3 convert_cometscore_to_egi_alpaca.py \
     -s en -t zh \
