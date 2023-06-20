@@ -14,6 +14,7 @@ The resulting files mainly fit the format of [ParroT](https://github.com/wxjiao/
 ### Data Resources
 
 Below lists the resources of high-quality translation data for instruction tuning. You can access the data through the links.
+The previous links are problematic, now they are fixed.
 
 <div align="center">
 <table style="text-align:right">
@@ -28,7 +29,7 @@ Below lists the resources of high-quality translation data for instruction tunin
   </tr>
   <tr>
     <td>Translation </td>
-    <td> <a href="https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=drive_link" >newstest17-20 </a> </td>
+    <td> <a href="https://drive.google.com/drive/folders/19_kMgbH1R9VrYf72xCNDxILX5ptPct_a?usp=sharing" >newstest17-20 </a> </td>
     <td> 12.2k </td>
     <td> 12.2k </td>
     <td> 13.3k </td>
@@ -37,7 +38,7 @@ Below lists the resources of high-quality translation data for instruction tunin
   </tr>
   <tr>
     <td>MQM-Score </td>
-    <td> <a href="https://drive.google.com/drive/folders/1OFmqJVtu_dhVYq-KNb478pmqdfqPNQSA?usp=drive_link" >newstest20 </a> </td>
+    <td> <a href="https://drive.google.com/drive/folders/1OFmqJVtu_dhVYq-KNb478pmqdfqPNQSA?usp=sharing" >newstest20 </a> </td>
     <td> 20.0k </td>
     <td> n/a </td>
     <td> n/a </td>
@@ -46,7 +47,7 @@ Below lists the resources of high-quality translation data for instruction tunin
   </tr>
   <tr>
     <td>MQM-Error </td>
-    <td> <a href="https://drive.google.com/drive/folders/18O5hZc9GVX6V5wq9PKb3hzSef0pgzkbO?usp=drive_link" >newstest20 </a> </td>
+    <td> <a href="https://drive.google.com/drive/folders/18O5hZc9GVX6V5wq9PKb3hzSef0pgzkbO?usp=sharing" >newstest20 </a> </td>
     <td> 124.3k </td>
     <td> n/a </td>
     <td> n/a </td>
@@ -55,7 +56,7 @@ Below lists the resources of high-quality translation data for instruction tunin
   </tr>
   <tr>
     <td>COMET-Score </td>
-    <td> <a href="https://drive.google.com/drive/folders/1wDiHYuu-vZiBnfGmzEigRpnmx2qFiFwF?usp=drive_link" >newstest20 </a> </td>
+    <td> <a href="https://drive.google.com/drive/folders/1wDiHYuu-vZiBnfGmzEigRpnmx2qFiFwF?usp=sharing" >newstest20 </a> </td>
     <td> n/a </td>
     <td> 19.8k </td>
     <td> 9.4k </td>
@@ -64,7 +65,7 @@ Below lists the resources of high-quality translation data for instruction tunin
   </tr>
   <tr>
     <td>Translation </td>
-    <td> <a href="https://drive.google.com/drive/folders/1g7x0jrKlUfkEduy_gS7k7JFn7zPB7o_u?usp=drive_link" >wmt20 </a> </td>
+    <td> <a href="https://drive.google.com/drive/folders/1g7x0jrKlUfkEduy_gS7k7JFn7zPB7o_u?usp=sharing" >wmt20 </a> </td>
     <td> 475.0k </td>
     <td> 475.0k </td>
     <td> n/a </td>
