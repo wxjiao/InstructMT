@@ -247,6 +247,7 @@ python3 ../alpaca/convert_alpaca_to_hf.py \
 ```
 
 
+<!---
 ### Instruction Variants (To Be Optimized)
 
 <details>
@@ -272,6 +273,7 @@ python3 ../alpaca/convert_alpaca_to_hf.py \
 </p>
 
 </details>
+--->
 
 
 
